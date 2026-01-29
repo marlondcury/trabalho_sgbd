@@ -21,7 +21,7 @@ O projeto segue uma arquitetura de ETL (Extract, Transform, Load) clássica, ali
 
 O processo foi dividido em três etapas modulares para garantir a rastreabilidade e facilidade de manutenção:
 
-### 1. Extração (`etl_1_extracao.py`)
+### 1. Extração (`etl_1_extracao.ipynb`)
 Responsável por iterar sobre a API da transparência (período 2015-2025).
 * **Desafio:** A API retorna um XML onde o conteúdo real é uma string JSON encapsulada.
 * **Solução:** Implementação de um parser híbrido (XML + JSON) para estruturar os dados brutos em DataFrames.
