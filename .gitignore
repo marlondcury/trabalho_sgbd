@@ -1,7 +1,14 @@
-# .gitignore
+# Ignorar arquivos de sistema do Mac
+.DS_Store
+
+# Ignorar cache do Python
 __pycache__/
 *.pyc
-.DS_Store       
-.env            
-venv/            
-.vscode/      
+
+# Ignorar ambiente virtual (se tiver)
+venv/
+.env
+
+# Ignorar banco de dados binário (opcional, melhor subir só os scripts/CSVs)
+*.db
+*.sqlite3
